@@ -70,9 +70,8 @@ public class SomeTests {
 
     @BeforeTest
     public void doBeforeTest() {
-        /*System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-        driver = new FirefoxDriver();*/
-        driver = new ChromeDriver();
+        System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+        driver = new FirefoxDriver();
     }
 
     @AfterTest
@@ -88,17 +87,3 @@ public class SomeTests {
         }
         return randomAds;
     }
-
-/*1. Открыть браузер и развернуть на весь экран.
-2. Зайти на ss.com
-3. Поменять язык на русский.
-4. Зайти в раздел Электротехника, в поиске ввести искомую фразу (напр. ‘Компьютер’) и выбрать разные параметры поиска.
-5. Нажать кнопку Искать
-6. Отсортировать результаты по цене и выбрать тип сделки ‘продажа’.
-7. Зайти в расширенный поиск.
-8. Задать параметр поиска по цене от 0 до 300.
-9. Выбрать не менее 3 любых случайных объявлений.
-10. Нажать “Добавить выбранные в закладки”.
-11. Открыть "Закладки" и проверить, что объявления на странице совпадают с выбранными ранее
-12. Закрыть браузер.*/
-}
