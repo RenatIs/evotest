@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Nopackage" >
+        <parameter name="categoryName" value="Электротехника"/>
+        <parameter name="keyPhrase" value="Компьютер"/>
+        <parameter name="minPrice" value="0"/>
+        <parameter name="maxPrice" value="300"/>
+
+        <classes>
+            <class name="SomeTests" />
+        </classes>
+    </test>
+
+
+</suite>

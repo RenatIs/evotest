@@ -1,0 +1,10 @@
+#IntelliJ IDEA settinds
+**/.idea/
+.idea
+**/*.iml
+**/*.iws
+**/*.ipr
+atlassian-ide-plugin.xml
+test-output/
+target/
+bin/
